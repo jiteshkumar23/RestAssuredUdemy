@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -99.38349,
+        "lng": -99.0
+    },
+    "accuracy": 50,
+    "name": "JohnnyDeep",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Hollywood California",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google1.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Sat, 09 Jul 2022 21:02:17 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "3c3b7ac86a9784b70fb3493440d5e84e",
+    "scope": "APP",
+    "reference": "dbd7286f96cdd0a252b3cfe9421d2b3adbd7286f96cdd0a252b3cfe9421d2b3a",
+    "id": "dbd7286f96cdd0a252b3cfe9421d2b3a"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3c3b7ac86a9784b70fb3493440d5e84e
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=3c3b7ac86a9784b70fb3493440d5e84e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 09 Jul 2022 21:02:18 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 239
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-99.38349",
+        "longitude": "-99"
+    },
+    "accuracy": "50",
+    "name": "JohnnyDeep",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Hollywood California",
+    "types": "shoe park,shop",
+    "website": "http://google1.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -99.38349,
+        "lng": -99.0
+    },
+    "accuracy": 50,
+    "name": "Jitesh",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "AddressTest",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google1.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Sat, 09 Jul 2022 21:02:18 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d57f90eb238a41bf954776dd4ac7ddec",
+    "scope": "APP",
+    "reference": "0967e9e954f0344de5b2fd4b9b6a97b80967e9e954f0344de5b2fd4b9b6a97b8",
+    "id": "0967e9e954f0344de5b2fd4b9b6a97b8"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d57f90eb238a41bf954776dd4ac7ddec
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=d57f90eb238a41bf954776dd4ac7ddec
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 09 Jul 2022 21:02:18 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 226
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-99.38349",
+        "longitude": "-99"
+    },
+    "accuracy": "50",
+    "name": "Jitesh",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "AddressTest",
+    "types": "shoe park,shop",
+    "website": "http://google1.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "d57f90eb238a41bf954776dd4ac7ddec"
+}
+HTTP/1.1 200 OK
+Date: Sat, 09 Jul 2022 21:02:19 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

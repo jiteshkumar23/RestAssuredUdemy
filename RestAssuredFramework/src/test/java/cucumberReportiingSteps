@@ -1,0 +1,24 @@
+Step1 - https://github.com/damianszczepanik/maven-cucumber-reporting
+
+damianszczepanik
+
+
+Step 2 - Add the 2 plugins in step 1 in the pom.xml, these plugin run in the mvn verify phase which is after test phase to generate cucumber report
+
+
+Step 3 -  Add version as per version number provided on https://github.com/damianszczepanik/maven-cucumber-reporting
+in the plugin 
+<plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>5.7.0</version>
+                
+                
+Steo 3 - In the runner add 
+
+plugin = "json:target/jsonReports/cucumber-report.json"
+
+Step 4 : In the terminal run , mvn test verify
+
+ensure you are connected to vpn for maven dependencies download
+
