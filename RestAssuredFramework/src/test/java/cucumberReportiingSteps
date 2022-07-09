@@ -3,8 +3,7 @@ Step1 - https://github.com/damianszczepanik/maven-cucumber-reporting
 damianszczepanik
 
 
-Step 2 - Add the 2 plugins in step 1 in the pom.xml, these plugin run in the mvn verify phase which is after test phase to generate cucumber report
-
+Step 2 - Use the pom from this project
 
 Step 3 -  Add version as per version number provided on https://github.com/damianszczepanik/maven-cucumber-reporting
 in the plugin 
